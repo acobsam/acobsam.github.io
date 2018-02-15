@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<fields>
+			<fieldset name="basic" label="Basic">
+				
+				<field name="padding_top" 
+					type="text"
+					default=""
+					label="Column Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the column">
+				</field>
+				
+				<field name="padding_bottom" 
+					type="text"
+					default=""
+					label="Column Padding Bottom"
+					placeholder="0"
+					unit="px"
+					description="The padding bottom of the column">
+				</field>
+
+				<field name="padding_left" 
+					type="text"
+					default=""
+					label="Column Padding Left"
+					unit="px"
+					description="The padding left of the column">
+				</field>
+				
+				<field name="padding_right" 
+					type="text"
+					default=""
+					label="Column Padding Right"
+					unit="px"
+					description="The padding right of the column">
+				</field>
+				
+				<field name="col_space_between_addons" 
+					type="text"
+					default=""
+					label="Space Between Addons"
+					unit="px"
+					description="The vertical space between addons of the column">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="background" label="Background" loadfrom="background"></fieldset>						
+			
+			<fieldset name="advanced_settings" label="Advanced">
+			
+				<field name="col_class" 
+					type="text"
+					default=""
+					label="Column Css Class"
+					class="alias"
+					description="additional css class of the column">
+				</field>
+				
+				<field name="col_id"
+					type="text"
+					default=""
+					label="Column ID"
+					class="alias"
+					description="The ID of the column, will be set to the div">
+				</field>
+						
+				<field name="col_css" 
+					type="textarea"
+					default=""
+					label="Column Add Css"
+					description="Any css you want to add to column div">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="animation" label="Animation" loadfrom="animation"></fieldset>
+			
+	</fields>

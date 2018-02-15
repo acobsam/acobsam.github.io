@@ -1,0 +1,8 @@
+.menu.nav {position: relative; background-color: #06182e !important; padding: 0; margin-top: 0; min-height: 132px;}
+.menu.nav > .container {width: auto !important;}
+.menu.nav.middle .navbar-toggle {position: absolute; margin-top: 20%;}
+.navbar-brand {display: block;}
+.menu.nav.middle .navbar-toggle {right: 10px;}
+.navbar-brand {height: 110px; margin-top: 0px !important;}
+body > div.menu.nav.middle > div > nav > ul {margin-top: 31% !important;}
+.rev_slider_wrapper.fullscreen-container, .vc_row.wpb_row.vc_row-fluid.vc_row-no-padding .vc_column_container {margin-top: 0px !important;}

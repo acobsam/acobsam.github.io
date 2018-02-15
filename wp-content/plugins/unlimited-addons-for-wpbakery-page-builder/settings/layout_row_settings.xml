@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<fields>
+			<fieldset name="basic" label="Basic">
+
+				<field name="row_container_width" 
+					type="text"
+					default=""
+					label="Row Container Width"
+					unit="px / %"
+					description="The container width of the row">
+				</field>
+				<field name="col_gutter" 
+					type="text"
+					default="" 
+					label="Column Gutter"
+					unit="px"
+					description="The padding left and right of the column">
+				</field>
+												
+				<field name="row_padding_top" 
+					type="text"
+					default=""
+					label="Row Padding Top"
+					unit="px"
+					description="The padding top of the row.">
+				</field>
+				
+				<field name="row_padding_bottom" 
+					type="text"
+					default=""
+					label="Row Padding Bottom"
+					unit="px"
+					description="The padding bottom of the row">
+				</field>
+				<field name="space_between_addons" 
+					type="text"
+					default=""
+					label="Space Between Addons"
+					unit="px"
+					description="The vertical space between addons of the row">
+				</field>
+				
+				<field type="hr"></field> 
+				
+				<field name="hide_in_desktop" 
+					type="checkbox"
+					default="false"
+					label="unite_setting_notext"
+					text_near="Hide In Desktop"
+					description="Hide the row in desktop (width more then 768px)"
+					>
+				</field>
+				
+				<field name="hide_in_tablet" 
+					type="checkbox"
+					default="false"
+					label="unite_setting_notext"
+					text_near="Hide In Tablet"
+					description="Hide In Tablet (width less then 768px and more then 480px)"
+					>
+				</field>
+
+				<field name="hide_in_mobile" 
+					type="checkbox"
+					default="false"
+					label="unite_setting_notext"
+					text_near="Hide In Mobile"
+					description="Hide In Mobile (width less then 480px)"
+					>
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="background" label="Background" loadfrom="background">
+			
+			</fieldset>						
+			
+			
+			<fieldset name="advanced_settings" label="Advanced">
+			
+				<field name="row_class" 
+					type="text"
+					default=""
+					label="Row Css Class"
+					class="alias"
+					description="additional css class of the row">
+				</field>
+				
+				<field name="row_id" 
+					type="text"
+					default=""
+					label="Row ID"
+					class="alias"
+					description="The ID of the row">
+				</field>
+						
+				<field name="row_css" 
+					type="textarea"
+					default=""
+					label="Row Add Css"
+					description="Any css you want to add to row div">
+				</field>
+				
+				<field name="row_container_css" 
+					type="textarea"
+					default=""
+					label="Row Container Css"
+					description="Any css you want to add to row container div">
+				</field>
+					
+			</fieldset>
+			
+			<fieldset name="animation" label="Animation" loadfrom="animation">
+			</fieldset>						
+	</fields>

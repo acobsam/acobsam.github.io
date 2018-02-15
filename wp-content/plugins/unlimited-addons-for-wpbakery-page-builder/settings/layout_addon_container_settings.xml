@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<fields>
+			<fieldset name="basic" label="Basic">
+				
+				<field name="padding_top" 
+					type="text"
+					default="0"
+					label="Addon Container Padding Top"
+					unit="px"
+					description="The padding top of the addon">
+				</field>
+				
+				<field name="padding_bottom" 
+					type="text"
+					default="0"
+					label="Addon Container Padding Bottom"
+					unit="px"
+					description="The padding bottom of the addon">
+				</field>
+				
+				<field name="padding_left" 
+					type="text"
+					default="0"
+					label="Addon Container Padding Left"
+					unit="px"
+					description="The padding left of the addon container">
+				</field>
+				
+				<field name="padding_right" 
+					type="text"
+					default="0"
+					label="Addon Container Padding Right"
+					unit="px"
+					description="The padding right of the addon container">
+				</field>
+				
+				<field name="text_align" 
+					type="list"
+					default=""
+					label="Addon Container Text Align"
+					description="The text align of the addon container, it influence on some of the addons">
+					
+						<option value="" text="[Default]"></option>
+						<option value="left" text="Left"></option>
+						<option value="center" text="Center"></option>
+						<option value="right" text="Right"></option>
+						
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="background" label="Background" loadfrom="background"></fieldset>						
+			
+			<fieldset name="animation" label="Animation" loadfrom="animation"></fieldset>
+			
+			<fieldset name="advanced_settings" label="Advanced">
+				
+				<field name="addon_class" 
+					type="text"
+					default=""
+					label="Addon Container Css Class"
+					class="alias"
+					description="additional css class of the container">
+				</field>
+									
+				<field name="addon_css" 
+					type="textarea"
+					default=""
+					label="Addon Container Add Css"
+					description="Any css you want to add to addon container div">
+				</field>
+				
+			</fieldset>
+					
+	</fields>
